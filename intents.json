@@ -1,0 +1,317 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi ",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "good_morning",
+      "patterns": [
+        "Good morning",
+        "morning"
+      ],
+      "responses": [
+        "Good morning!",
+        "Morning! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "good_afternoon",
+      "patterns": [
+        "Good afternoon",
+        "afternoon"
+      ],
+      "responses": [
+        "Good afternoon!",
+        "Afternoon! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "good_evening",
+      "patterns": [
+        "Good evening",
+        "evening"
+      ],
+      "responses": [
+        "Good evening!",
+        "Evening! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","exit","quit"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","ok"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "Tell me about Dr. Kshama Kullhalli",
+        "Who is Dr. Kshama Kullhalli?",
+        "What does Dr. Kshama Kullhalli do?",
+        "Can you provide information about Dr. Kshama Kullhalli?",
+        "I'd like to know more about Dr. Kshama Kullhalli",
+        "Who is your host",
+        "Tell me about your host",
+        "host",
+        "mentor",
+        "coach",
+        "speaker"
+
+      ],
+      "responses": [
+        "Dr. Kshama Kullhalli is an accomplished academician and neuroscience researcher. She is also a renowned cognitive fitness coach with over 38 years of experience."
+      ]
+    },
+    {
+      "tag": "menopause",
+      "patterns": [
+        "What is menopause?",
+        "Tell me about menopause",
+        "What are the symptoms of menopause?",
+        "How does menopause affect women?",
+        "Can you provide information about menopause?"
+      ],
+      "responses": [
+        "Menopause is a natural biological process that marks the end of a woman's menstrual cycles. It is diagnosed after 12 consecutive months without a menstrual period. Menopause can occur in your 40s or 50s, but the average age is 51 in the United States.",
+        "In menopause, the body goes through several changes due to a decrease in estrogen production. Symptoms of menopause can include hot flashes, night sweats, mood changes, vaginal dryness, and irregular periods.",
+        "Menopause can affect women in different ways. Some women may experience few or no symptoms, while others may find the symptoms severe and disruptive to their daily lives. It's important for women going through menopause to discuss their symptoms with a healthcare provider to explore treatment options."
+      ]
+    },
+    {
+      "tag": "cognitive_fitness",
+      "patterns": [
+        "What is cognitive fitness?",
+        "Tell me about cognitive fitness",
+        "How can I improve my cognitive fitness?",
+        "What are the benefits of cognitive fitness?",
+        "Can you provide information about cognitive fitness?"
+      ],
+      "responses": [
+        "Cognitive fitness refers to the ability to think, learn, and remember. It involves various mental processes such as attention, memory, reasoning, and decision-making.",
+        "Cognitive fitness involves engaging in activities that challenge and stimulate the brain, such as puzzles, games, learning new skills, and staying mentally active.",
+        "Cognitive fitness include improved memory, enhanced problem-solving skills, better concentration, and a reduced risk of cognitive decline as you age.",
+        "Cognitive fitness include mental exercises, maintaining a healthy lifestyle that includes regular physical activity, a balanced diet, adequate sleep, and managing stress can also support cognitive fitness."
+      ]
+    },
+    {
+      "tag": "postmenopause",
+      "patterns": [
+        "What is postmenopause?",
+        "Tell me about postmenopause",
+        "How does postmenopause affect women?",
+        "Can you provide information about postmenopause?"
+      ],
+      "responses": [
+        "Postmenopause is the stage after menopause, which is defined as 12 consecutive months without a menstrual period.",
+        "In postmenopause, hormone levels remain low and stable, and most women experience relief from the symptoms of perimenopause.",
+        "Postmenopausal women are at an increased risk of certain health conditions, such as osteoporosis and heart disease, due to the decrease in estrogen levels. It's important for women to maintain a healthy lifestyle and discuss any concerns with a healthcare provider."
+      ]
+    },
+    {
+      "tag": "email_id",
+      "patterns": [
+        "What is your email address?",
+        "Can you share your email ID?"
+      ],
+      "responses": [
+        "Our email address is <a href='mailto:infibrainacademy@gmail.com'>infibrainacademy@gmail.com</a>.",
+        "You can contact us at <a href='mailto:infibrainacademy@gmail.com'>infibrainacademy@gmail.com</a>."
+      ]
+    },
+    {
+      "tag": "contact_number",
+      "patterns": [
+        "What is your contact number?",
+        "Can I have your contact number?"
+      ],
+      "responses": [
+        "Our contact number is <a href='tel:+919764997271'>+91 9764997271</a>.",
+        "You can reach us at <a href='tel:+919764997271'>+91 9764997271</a>."
+      ]
+    },
+    {
+      "tag": "linkedin",
+      "patterns": [
+        "What is your linkedin profile?",
+        "Can you provide your Linkedin link?",
+        "Are you on linkedin",
+        "linkedin",
+        "linkedin id"
+      ],
+      "responses": [
+        "Our LinkedIn profile is <a href='https://www.linkedin.com/in/dr-kshama-kulhalli-73756917/?originalSubdomain=in'>LinkedIn</a>.",
+        "You can connect with us on LinkedIn at <a href='https://www.linkedin.com/in/dr-kshama-kulhalli-73756917/?originalSubdomain=in'>LinkedIn</a>.",
+        "Yes, I have a LinkedIn account. You can find me at <a href='https://www.linkedin.com/in/dr-kshama-kulhalli-73756917/?originalSubdomain=in'>LinkedIn</a>."
+      ]
+    },
+    {
+      "tag": "facebook",
+      "patterns": [
+        "What is your Facebook page?",
+        "Can you share your Facebook profile?",
+        "Do you use Facebook?",
+        "Are you on facebook",
+        "facebook",
+        "facebook id"
+      ],
+      "responses": [
+        "Our Facebook page is <a href='https://www.facebook.com/kulhalli/'>Facebook</a>.",
+        "You can find our Facebook profile at <a href='https://www.facebook.com/kulhalli/'>Facebook</a>.",
+        "Yes, We use Facebook. You can find me at <a href='https://www.facebook.com/kulhalli/'>Facebook</a>."
+      ]
+    },
+    {
+      "tag": "instagram",
+      "patterns": [
+        "What is your Instagram handle?",
+        "Can you provide your Instagram link?",
+        "Do you have an Instagram account?",
+        "Are you on instagram",
+        "instagram",
+        "instagram id"
+      ],
+      "responses": [
+        "You can find us on Instagram at <a href='https://www.instagram.com/cognitive_kshama_hub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D'>Instagram</a>.",
+        "Our Instagram link is <a href='https://www.instagram.com/cognitive_kshama_hub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D'>Instagram</a>.",
+        "Yes, We have an Instagram account. You can find me at <a href='https://www.instagram.com/cognitive_kshama_hub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D'>Instagram</a>."
+      ]
+    },
+    {
+      "tag": "about_infibrain_academy",
+      "patterns": [
+        "What is Infibrain Academy?",
+        "Tell me about Infibrain Academy.",
+        "What does Infibrain Academy do?",
+        "Infibrain academy",
+        "infibrain"
+      ],
+      "responses": [
+        "Infibrain Academy is a cognitive fitness academy founded by Dr. Kshama Kullhalli. The academy focuses on empowering individuals to take control of their cognitive fitness and unlock their full potential. Through personalized training programs, Infibrain Academy helps enhance cognitive performance, increase resilience, and improve overall well-being. Dr. Kullhalli's innovative approach to cognitive fitness has helped thousands of people achieve their goals and transform their lives. The academy is on a mission to educate and inspire 100,000 individuals to prioritize their cognitive health and develop the mindset, habits, and skills necessary to thrive in an ever-changing world."
+      ]
+    },
+    {
+      "tag": "course_prices",
+      "patterns": [
+        "How much does it cost to enroll in a at Infibrain Academy?",
+        "What is the price range for at Infibrain Academy?",
+        "cost of course",
+        "price of course",
+        "cost",
+        "price"
+      ],
+      "responses": [
+        "The cost of courses at Infibrain Academy varies depending on the course. Our courses start at INR 5999/-. For specific pricing information, please visit our website or contact us directly."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available at Infibrain Academy?",
+        "Can you list the courses offered by Infibrain Academy?",
+        "What courses are available",
+        "courses offered",
+        "available cources"
+      ],
+      "responses": [
+        "Infibrain Academy offers a variety of courses. Our main course contain 5 missions to improve cognitive fitness and overall well-being in cost of 5999/-"
+      ]
+    },
+    {
+      "tag": "missions_in_course",
+      "patterns": [
+        "What missions or modules are included in the course?",
+        "Can you provide details about the missions in the course?",
+        "tell me about missions in cources",
+        "contents of course",
+        "waht are the missions in it"
+      ],
+      "responses": [
+        "Each course at Infibrain Academy consists of 5 missions or modules designed to enhance cognitive fitness. These missions cover various aspects of cognitive health and well-being, helping individuals develop the skills and habits to thrive."
+      ]
+    },
+    {
+      "tag": "mission_1",
+      "patterns": [
+        "Tell me about Mission 1"
+      ],
+      "responses": [
+        {
+          "text": "Mission 1: 6 Pillars of Brain Health Neuroscientific Tools for 'Bright Brain'",
+          "image": "c1.jpg"
+        }
+      ]
+    },
+    {
+      "tag": "mission_2",
+      "patterns": [
+        "Tell me about Mission 2",
+        "mission 2",
+        "mission2"
+      ],
+      "responses": [
+        {
+          "text": "Mission 2: Mastering memory techniques",
+          "image": "c2.jpg"
+        }
+      ]
+    },
+    {
+      "tag": "mission_3",
+      "patterns": [
+        "Tell me about Mission 3",
+        "mission 3",
+        "mission3"
+      ],
+      "responses": [
+        {
+          "text": "Mission 3: Neuroplasticity(how to rewire your brain)",
+          "image": "c4.jpg"
+        }
+      ]
+    },
+    {
+      "tag": "mission_4",
+      "patterns": [
+        "Tell me about Mission 4",
+        "mission 4",
+        "mission4"
+      ],
+      "responses": [
+        {
+          "text": "Mission 4: Mastering memory techniques",
+          "image": "http://localhost:8000/c4.jpg"
+        }
+      ]
+    }
+        
+    
+    
+    
+    
+    
+       
+]
+
+}
